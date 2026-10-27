@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "lookbackHours": 24,
+  "categories": {
+    "ai_builders_zara": {
+      "description": "All sources from zarazhangrui/follow-builders (default-sources.json), kept verbatim",
+      "x": [
+        {
+          "name": "Andrej Karpathy",
+          "handle": "karpathy",
+          "id": "33836629",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Swyx",
+          "handle": "swyx",
+          "id": "33521530",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Josh Woodward",
+          "handle": "joshwoodward",
+          "id": "206546319",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Boris Cherny",
+          "handle": "bcherny",
+          "id": "159337660",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Thibault Sottiaux",
+          "handle": "thsottiaux",
+          "id": "1953337039510003712",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Peter Yang",
+          "handle": "petergyang",
+          "id": "84490044",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Nan Yu",
+          "handle": "thenanyu",
+          "id": "16950370",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Madhu Guru",
+          "handle": "realmadhuguru",
+          "id": "1462843067208278021",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Amanda Askell",
+          "handle": "AmandaAskell",
+          "id": "756181721997987848",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Cat Wu",
+          "handle": "_catwu",
+          "id": "974757274206978049",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Thariq",
+          "handle": "trq212",
+          "id": "352806502",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Google Labs",
+          "handle": "GoogleLabs",
+          "id": "163975783",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Amjad Masad",
+          "handle": "amasad",
+          "id": "166138615",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Guillermo Rauch",
+          "handle": "rauchg",
+          "id": "15540222",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Alex Albert",
+          "handle": "alexalbert__",
+          "id": "1380719534970040322",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Aaron Levie",
+          "handle": "levie",
+          "id": "914061",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Ryo Lu",
+          "handle": "ryolu_",
+          "id": "18233920",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Garry Tan",
+          "handle": "garrytan",
+          "id": "11768582",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Matt Turck",
+          "handle": "mattturck",
+          "id": "247785677",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Zara Zhang",
+          "handle": "zarazhangrui",
+          "id": "1472063616",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Nikunj Kothari",
+          "handle": "nikunj",
+          "id": "30405893",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Peter Steinberger",
+          "handle": "steipete",
+          "id": "25401953",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Dan Shipper",
+          "handle": "danshipper",
+          "id": "19829693",
+          "origin": "lux_follow"
+        },
+        {
+          "name": "Aditya Agarwal",
+          "handle": "adityaag",
+          "id": "974861",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Sam Altman",
+          "handle": "sama",
+          "id": "1605",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Claude",
+          "handle": "claudeai",
+          "id": "1943306828697550848",
+          "origin": "follow-builders"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Latent Space",
+          "url": "https://pod2txt.vercel.app/api/feed?url=https://api.substack.com/feed/podcast/1084089.rss",
+          "type": "podcast",
+          "link": "https://www.youtube.com/@LatentSpacePod",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Training Data",
+          "url": "https://feeds.megaphone.fm/trainingdata",
+          "type": "podcast",
+          "link": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "No Priors",
+          "url": "https://feeds.megaphone.fm/nopriors",
+          "type": "podcast",
+          "link": "https://www.youtube.com/@NoPriorsPodcast",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Unsupervised Learning",
+          "url": "https://feeds.simplecast.com/dOSE_bdP",
+          "type": "podcast",
+          "link": "https://www.youtube.com/@RedpointAI",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "The MAD Podcast with Matt Turck",
+          "url": "https://anchor.fm/s/f2ee4948/podcast/rss",
+          "type": "podcast",
+          "link": "https://www.youtube.com/@DataDrivenNYC/videos",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "AI & I by Every",
+          "url": "https://anchor.fm/s/ed1f5584/podcast/rss",
+          "type": "podcast",
+          "link": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+          "origin": "follow-builders"
+        }
+      ],
+      "pages": [
+        {
+          "name": "Anthropic Engineering",
+          "type": "scrape",
+          "indexUrl": "https://www.anthropic.com/engineering",
+          "articleBaseUrl": "https://www.anthropic.com/engineering/",
+          "fetchMethod": "http",
+          "origin": "follow-builders"
+        },
+        {
+          "name": "Claude Blog",
+          "type": "scrape",
+          "indexUrl": "https://claude.com/blog",
+          "articleBaseUrl": "https://claude.com/blog/",
+          "fetchMethod": "http",
+          "origin": "follow-builders"
+        }
+      ]
+    },
+    "ai_labs_and_builders": {
+      "x": [
+        {
+          "handle": "OpenAI",
+          "id": "4398626122",
+          "origin": "addition"
+        },
+        {
+          "handle": "OpenAIDevs",
+          "id": "1633874951508721686",
+          "origin": "addition"
+        },
+        {
+          "handle": "AnthropicAI",
+          "id": "1353836358901501952",
+          "origin": "addition"
+        },
+        {
+          "handle": "xai",
+          "id": "2074186776130859008",
+          "origin": "addition"
+        },
+        {
+          "handle": "elonmusk",
+          "id": "44196397",
+          "origin": "lux_follow"
+        },
+        {
+          "handle": "demishassabis",
+          "id": "1482581556",
+          "origin": "addition"
+        },
+        {
+          "handle": "a16z",
+          "id": "64844802",
+          "origin": "addition"
+        },
+        {
+          "handle": "gregisenberg",
+          "id": "14642331",
+          "origin": "lux_follow"
+        },
+        {
+          "handle": "simonw",
+          "id": "12497",
+          "origin": "addition"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Latent Space",
+          "url": "https://www.latent.space/feed",
+          "origin": "addition"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/atom/everything/",
+          "origin": "addition"
+        },
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/news/rss.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/rss.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "No Priors",
+          "url": "https://feeds.megaphone.fm/nopriors",
+          "origin": "addition"
+        },
+        {
+          "name": "a16z",
+          "url": "https://a16z.substack.com/feed",
+          "origin": "addition"
+        }
+      ]
+    },
+    "film_industry_and_screenwriting": {
+      "x": [
+        {
+          "handle": "Deadline",
+          "id": "586032653",
+          "origin": "addition"
+        },
+        {
+          "handle": "Variety",
+          "id": "17525171",
+          "origin": "addition"
+        },
+        {
+          "handle": "THR",
+          "id": "17446621",
+          "origin": "addition"
+        },
+        {
+          "handle": "IndieWire",
+          "id": "13992132",
+          "origin": "addition"
+        },
+        {
+          "handle": "nofilmschool",
+          "id": "94513741",
+          "origin": "addition"
+        },
+        {
+          "handle": "MattBelloni",
+          "id": "12737142",
+          "origin": "addition"
+        },
+        {
+          "handle": "BoxOfficeMojo",
+          "id": "18950402",
+          "origin": "addition"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "Variety",
+          "url": "https://variety.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "IndieWire",
+          "url": "https://www.indiewire.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "No Film School",
+          "url": "https://nofilmschool.com/rss.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "Scriptnotes",
+          "url": "https://feeds.megaphone.fm/scriptnotes",
+          "origin": "addition"
+        },
+        {
+          "name": "The Town (Matt Belloni)",
+          "url": "https://feeds.megaphone.fm/the-town-with-matthew-belloni",
+          "origin": "addition"
+        },
+        {
+          "name": "The Wrap",
+          "url": "https://www.thewrap.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "Go Into The Story",
+          "url": "https://gointothestory.blcklst.com/feed",
+          "origin": "addition"
+        }
+      ]
+    },
+    "tech_media_chips_robotics": {
+      "x": [
+        {
+          "handle": "benthompson",
+          "id": "40273",
+          "origin": "addition"
+        },
+        {
+          "handle": "dylan522p",
+          "id": "985281530070265862",
+          "origin": "addition"
+        },
+        {
+          "handle": "nvidia",
+          "id": "61559439",
+          "origin": "addition"
+        },
+        {
+          "handle": "Figure_robot",
+          "id": "1602443956888817665",
+          "origin": "addition"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "SemiAnalysis",
+          "url": "https://semianalysis.substack.com/feed",
+          "origin": "addition"
+        },
+        {
+          "name": "IEEE Spectrum Robotics",
+          "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+          "origin": "addition"
+        }
+      ]
+    },
+    "geopolitics_markets": {
+      "x": [
+        {
+          "handle": "TheEconomist",
+          "id": "5988062",
+          "origin": "addition"
+        },
+        {
+          "handle": "WSJ",
+          "id": "3108351",
+          "origin": "addition"
+        },
+        {
+          "handle": "washingtonpost",
+          "id": "2467791",
+          "origin": "addition"
+        },
+        {
+          "handle": "XHNews",
+          "id": "487118986",
+          "origin": "lux_follow"
+        },
+        {
+          "handle": "JamesHarrisNow",
+          "id": "414641479",
+          "origin": "lux_follow"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "The Economist Leaders",
+          "url": "https://www.economist.com/leaders/rss.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "WSJ World",
+          "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+          "origin": "addition"
+        },
+        {
+          "name": "WSJ Tech",
+          "url": "https://feeds.a.dj.com/rss/RSSWSJD.xml",
+          "origin": "addition"
+        }
+      ]
+    },
+    "running": {
+      "x": [
+        {
+          "handle": "runnersworld",
+          "id": "14882900",
+          "origin": "addition"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Runner's World",
+          "url": "https://www.runnersworld.com/rss/all.xml/",
+          "origin": "addition"
+        },
+        {
+          "name": "iRunFar",
+          "url": "https://www.irunfar.com/feed",
+          "origin": "addition"
+        },
+        {
+          "name": "Sweat Science (Alex Hutchinson)",
+          "url": "https://www.outsideonline.com/byline/alex-hutchinson/feed/",
+          "origin": "addition"
+        }
+      ]
+    },
+    "languages": {
+      "x": [
+        {
+          "handle": "EnglishPodcast",
+          "id": "54336875",
+          "origin": "lux_follow"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Coffee Break Spanish",
+          "url": "https://feeds.acast.com/public/shows/coffeebreakspanish",
+          "origin": "addition"
+        },
+        {
+          "name": "Coffee Break French",
+          "url": "https://feeds.acast.com/public/shows/coffeebreakfrench",
+          "origin": "addition"
+        },
+        {
+          "name": "Luke's English Podcast",
+          "url": "https://teacherluke.libsyn.com/rss",
+          "origin": "addition"
+        }
+      ]
+    },
+    "world_cinema": {
+      "x": [
+        {
+          "handle": "Criterion",
+          "id": "22207520",
+          "origin": "addition"
+        },
+        {
+          "handle": "mubi",
+          "id": "16349559",
+          "origin": "addition"
+        },
+        {
+          "handle": "letterboxd",
+          "id": "26981455",
+          "origin": "addition"
+        },
+        {
+          "handle": "SightSoundmag",
+          "id": "53371665",
+          "origin": "addition"
+        }
+      ],
+      "feeds": [
+        {
+          "name": "Film Comment",
+          "url": "https://www.filmcomment.com/feed/",
+          "origin": "addition"
+        },
+        {
+          "name": "Mubi Notebook",
+          "url": "https://mubi.com/notebook/posts.rss",
+          "origin": "addition"
+        }
+      ]
+    }
+  }
+}
